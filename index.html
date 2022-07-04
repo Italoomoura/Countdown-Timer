@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .tempo{
+            display: flex;
+            margin-top: 2%;
+        }
+        .final{
+            display: flex;
+            width: max-content;
+            border-bottom: 2px solid black;
+        }
+        .tempo div{
+            margin-right: 1rem;
+            border: solid 1px;
+            justify-content: center;
+            text-align: center;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Countdown - Timer</h1>
+    <div class="final">
+        <h2 class="finalTitulo"></h2>
+    </div>
+    <div class="tempo">
+        <!-- Dias -->
+        <div>
+            <h2 class="dias">3</h2>
+            <span>Dias</span>
+        </div>
+        <!-- Horas -->
+        <div>
+            <h2 class="horas">2</h2>
+            <span>Horas</span>
+        </div>
+        <!-- Minutos -->
+        <div>
+            <h2 class="minutos">4</h2>
+            <span>Minutos</span>
+        </div>
+        <!-- Segundos -->
+        <div>
+            <h2 class="segundos">5</h2>
+            <span>Segundos</span>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
